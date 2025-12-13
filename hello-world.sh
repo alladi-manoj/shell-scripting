@@ -1,2 +1,3 @@
-this is a hello sample 2
-lets see.
+#!/bin/bash
+
+echo "Hello, i am leearning devops"
