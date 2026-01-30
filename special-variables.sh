@@ -6,3 +6,4 @@ echo "script  name : $0"
 echo "current working directory : $PWD"
 echo "user running script : $USER"
 
+echo "hostname : $hostname"
