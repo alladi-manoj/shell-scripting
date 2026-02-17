@@ -1,7 +1,14 @@
+
+
 #!/bin/bash
 
-movies=("rrr" "kgf" "pushpa" "bahubali" "sahoo")
+MOVIES=("RRR" "DjTillu" "murari")
 
-echo "first movie is: ${movies[0]}"
-echo "first movie is: ${movies[1]}"
-echo "all movies is: ${movies[@]}"
+# size of above array is 3.
+# index are 0,1,2
+
+# list always starts with 0.
+
+echo "First Movie is: ${MOVIES[0]}"
+echo "First Movie is: ${MOVIES[1]}"
+echo "First Movie is: ${MOVIES[@]}"
