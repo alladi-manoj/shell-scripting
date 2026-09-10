@@ -8,5 +8,4 @@
   tasks: 
   - name: print informtion 
     ansible.builtin.debug:
-     msg: "hello, we are learning {{corses}} from {{trainer}} and the duration is {{duration}}
-     
+     msg: "hello, we are learning {{corses}} from {{trainer}} and the duration is {{duration}}"
